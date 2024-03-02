@@ -2,3 +2,44 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+:root {
+    --cloud-white: #EBEBEB;
+    --cloud-dark-white: #E0E0E0;
+  
+    --dark-grey-green: #455A64;
+    --darker-grey-green: #37474F;
+    --darkest-grey-green: #263238;
+  
+    --green: #27DEBF;
+    --red: #F28F8F;
+  }
+  
+  
+  /* body {
+    background-color: var(--darkest-grey-green);
+    color: var(--cloud-white);
+  } */  /* Dark theme */
+  body {
+    background-color: var(--cloud-white);
+    color: var(--darkest-grey-green);
+  }
+  
+  .header {
+    background-color: var(--darker-grey-green);
+    color: var(--cloud-greyish-white);
+  }
+  
+  .button {
+    background-color: var(--green);
+    color: #fff; /* White text on green background */
+  }
+  
+  .error-message {
+    color: var(--red);
+  }
+  
+  /* Add more styles as needed */
+  
