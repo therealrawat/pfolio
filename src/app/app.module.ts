@@ -8,6 +8,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './common/sidebar/sidebar.component';
 import { FooterComponent } from './common/footer/footer.component';
+import { HeadnavsComponent } from './common/headnavs/headnavs.component';
+import { MaterialModule } from './common/angular-material/angular-material';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { FooterComponent } from './common/footer/footer.component';
     PageNotFoundComponent,
     HomeComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    HeadnavsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

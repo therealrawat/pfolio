@@ -1,0 +1,8 @@
+.pr-spacer {
+    flex: 1 1 auto;
+  }
+
+  .bg-color {
+    background-color: var(--darkest-grey-green);
+    color: var(--cloud-white);
+  }

@@ -1,3 +1,27 @@
 .green{
     color: var(--green);
 }
+
+.main-img {
+
+}
+button{
+    border-radius: 5px;
+    width: 10em;
+    height: 4em;
+    border: 2px var(--cloud-white) solid;
+    background-color: var(--darker-grey-green);
+    color: var(--cloud-white);
+}
+button:hover{
+    border: 2px var(--darker-grey-green) solid;
+    color: var(--darker-grey-green);
+    background-color: var(--cloud-white);
+}
+
+h1{
+    font-weight: 600;
+}
+
+
+
