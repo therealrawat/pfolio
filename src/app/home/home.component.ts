@@ -8,6 +8,6 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class HomeComponent {
   constructor(private sanitizer: DomSanitizer){}
-  buildings = this.sanitizer.bypassSecurityTrustResourceUrl('assets/img/buildings.svg');
+  buildings = this.sanitizer.bypassSecurityTrustResourceUrl('assets/img/home.svg');
   
 }

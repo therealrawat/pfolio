@@ -8,12 +8,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 :root {
     --cloud-white: #EBEBEB;
     --cloud-dark-white: #E0E0E0;
+
+    --white: #FFFFFF;
   
     --dark-grey-green: #455A64;
     --darker-grey-green: #37474F;
     --darkest-grey-green: #263238;
   
-    --green: #27DEBF;
+    --green: #20C997;
     --red: #F28F8F;
   }
   
@@ -23,7 +25,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: var(--cloud-white);
   } */  /* Dark theme */
   body {
-    background-color: var(--cloud-white);
+    background-color: var(--white);
     color: var(--darkest-grey-green);
   }
   
@@ -41,6 +43,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: var(--red);
   }
   
+
+  .logo {
+    cursor: pointer;
+  }
+
+  .green{
+    color: var(--green);
+}
+
   /* Add more styles as needed */
   
 
