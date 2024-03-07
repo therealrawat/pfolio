@@ -10,6 +10,7 @@ import { SidebarComponent } from './common/sidebar/sidebar.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HeadnavsComponent } from './common/headnavs/headnavs.component';
 import { MaterialModule } from './common/angular-material/angular-material';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MaterialModule } from './common/angular-material/angular-material';
     HomeComponent,
     SidebarComponent,
     FooterComponent,
-    HeadnavsComponent
+    HeadnavsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
