@@ -6,6 +6,7 @@ button{
     border-radius: 5px;
     width: 10em;
     height: 4em;
+    border-radius: 0px;
     border: 2px var(--white) solid;
     background-color: var(--darker-grey-green);
     color: var(--white);
