@@ -1,0 +1,17 @@
+<div class="countdown-container">
+    <div *ngIf="showCountdown" class="countdown-timer">{{ countdownText }}</div>
+    <button *ngIf="showButton" (click)="onButtonClick()" class="popup-button">Click Me</button>
+    
+    <!-- Typing animation only -->
+    <div *ngIf="showMessage" class="typing-container">
+        <span class="typing-message">{{greetingText}}</span>
+    </div>
+
+    <!-- Candle and Flame -->
+    <!-- <div class="candle-container">
+        <div class="candle">
+            <div class="flame"></div>
+        </div>
+    </div> -->
+</div>
+<app-footer></app-footer>

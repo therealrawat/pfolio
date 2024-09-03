@@ -12,6 +12,7 @@ import { HeadnavsComponent } from './common/headnavs/headnavs.component';
 import { MaterialModule } from './common/angular-material/angular-material';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     HeadnavsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
